@@ -1,0 +1,11 @@
+supermarketlijst = ["Banaan","Wortel","Kiwi","Pindakaas","Chocolademelk"]
+s = supermarketlijst.index("Banaan")
+print(s)
+supermarketlijst.append("Tony Chocolonely")
+print(supermarketlijst)
+supermarketlijst.reverse()
+print(supermarketlijst)
+lijst_copy = supermarketlijst.copy()
+supermarketlijst.reverse()
+print("copy: ", lijst_copy)
+print("origineel: ", supermarketlijst)
